@@ -129,9 +129,10 @@ a:focus {
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
-        border-bottom: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
         letter-spacing: 1px;
         background: 0 0;
+        background-color:rgba(0,0,0,.5);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -150,7 +151,7 @@ a:focus {
 	height: auto;
 	text-align: right;
 	color: #fff;
-	/*background: url(../img/HalfDome.jpg) no-repeat bottom center scroll;*/
+	background: url(../img/bg.jpeg) no-repeat bottom center scroll;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -171,6 +172,7 @@ a:focus {
 	font-size: 40px;
 	color: #FFF;
 	font-family: "Myriad Pro";
+	text-shadow:0 0 2px #000;
 }
 
 .intro .intro-body .intro-text {
